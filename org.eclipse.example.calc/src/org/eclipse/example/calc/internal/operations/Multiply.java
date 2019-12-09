@@ -1,0 +1,24 @@
+package org.eclipse.example.calc.internal.operations;
+
+import org.eclipse.example.calc.BinaryOperation;
+
+/**
+ * Kommentar
+ * @author xgadjcm
+ *
+ */
+public class Multiply extends AbstractOperation implements BinaryOperation {
+
+	@Override
+	public String getName() {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	@Override
+	public float perform(float arg1, float arg2) {
+		// TODO Auto-generated method stub
+		return 0;
+	}
+
+}
