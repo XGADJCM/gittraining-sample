@@ -6,6 +6,8 @@
  * are made available under the terms of the Eclipse Public License v1.0
  * which accompanies this distribution, and is available at
  * http://www.eclipse.org/legal/epl-v10.html
+ * 
+ * xgadjcm
  *******************************************************************************/
 package org.eclipse.example.calc.internal;
 
@@ -13,6 +15,7 @@ import org.eclipse.example.calc.BinaryOperation;
 import org.eclipse.example.calc.Operation;
 import org.eclipse.example.calc.Operations;
 import org.eclipse.example.calc.UnaryOperation;
+import org.eclipse.example.calc.internal.operations.Divide;
 import org.eclipse.example.calc.internal.operations.Equals;
 import org.eclipse.example.calc.internal.operations.Minus;
 import org.eclipse.example.calc.internal.operations.Multiply;
@@ -42,6 +45,7 @@ public class Calculator {
 		new Plus();
 		new Square();
 		new Multiply();
+		new Divide();
 	}
 
 	private void calculate(String cmdName) {
