@@ -31,7 +31,6 @@ import org.eclipse.example.calc.internal.TextProvider;
  */
 public class CalculatorUI extends JFrame implements TextProvider,
 		ActionListener {
-	private static final long serialVersionUID = 1L;
 
 	private Calculator calculator;
 
